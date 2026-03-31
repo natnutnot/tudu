@@ -60,7 +60,6 @@
             transform: translateY(-2px) scale(1.03);
         }
 
-        /*
         #searchInput {
             width: 100%;
             box-sizing: border-box;
@@ -77,7 +76,7 @@
             border: 1.5px solid #6366f1;
             background: #fff;
         }
-        */
+        
 
         #taskList > div {
             display: flex;
@@ -100,11 +99,9 @@
         <button class="add-btn" onclick="tambahTask()">Tambah</button>
     </section>
 
-    <!--
     <section style="margin-bottom: 15px;">
         <input id="searchInput" type="text" placeholder="Cari tugas..." onkeyup="cari()">
     </section>
-    -->
 
     <section id="taskList"></section>
 
@@ -131,7 +128,6 @@
         input.value = "";
     }
 
-    /*
     function cari() {
         let keyword = document.getElementById("searchInput").value.toLowerCase();
         let list = document.getElementById("taskList").children;
@@ -141,7 +137,7 @@
             item.style.display = text.includes(keyword) ? "" : "none";
         }
     }
-    */
+
 </script>
 
 </body>
